@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>XRM_ZMP_HEV_interface</name>
+  <version>0.1.0</version>
+  <description>This is the driver for ZMP HEV MiniVan to connect with Autoware.Universe</description>
+  <maintainer email="ma.shanpeng.mn6@is.naist.jp">Shanpeng Ma</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="ma.shanpeng.mn6@is.naist.jp">Shanpeng Ma</author>
+
+  <depend>autoware_auto_control_msgs</depend>
+  <depend>autoware_auto_vehicle_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
